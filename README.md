@@ -15,7 +15,7 @@ Algorithm of using 3 models for Classifying the Image either Receipt or not a Re
 ```
 The Algorithm is considering both Image patterns similar to Receipt image paterns and Text information in the Image of considered Image.
 
-**Image Patterns Extraction (Pattern Recognition Model):**
+**1) Image Patterns Extraction (Pattern Recognition Model):**
 
 
   Convolution Network of 8 layers with 2\*4 layers residual feedbacks used in remembering the Patterns of the Receipt Images.
