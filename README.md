@@ -29,3 +29,20 @@ The Algorithm is considering both Image patterns similar to Receipt image patern
 - [ ] 2nd Model is same model with last before layer as predictor which will Calculate a Embedding of specified Flatten Neurons ( The Predicted flatten Values will have Feature Information of Receipt Images ).
             
   - Convolution Last before layer Embedding Output is considered as Pattern Feature of Image.
+
+**1) Text Feature Extraction (OCR in Extracting Text):**
+
+
+  Convolution Network of 8 layers with 2\*4 layers residual feedbacks used in remembering the Patterns of the Receipt Images.
+  
+  
+  ![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/ConvNet1.png)
+  
+  - Pattern Recognition Convolution Network is built to work as two models, 
+
+- [x] 1st Model will train on the Receipt Images with direct Classification to predict the Images with softmax Classification of Receipt Categories.
+- [ ] 2nd Model is same model with last before layer as predictor which will Calculate a Embedding of specified Flatten Neurons ( The Predicted flatten Values will have Feature Information of Receipt Images ).
+            
+  - Convolution Last before layer Embedding Output is considered as Pattern Feature of Image.
+
+
