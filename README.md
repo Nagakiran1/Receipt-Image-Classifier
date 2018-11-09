@@ -30,7 +30,7 @@ The Algorithm is considering both Image patterns similar to Receipt image patern
             
   - Convolution Last before layer Embedding Output is considered as Pattern Feature of Image.
 
-**1) Text Feature Extraction (OCR in Extracting Text):**
+**2) Text Feature Extraction (OCR in Extracting Text):**
 
 Receipt text information conveys much information in classifying the Receipt, but conventional Neural Networks cannot learn on the Text features in the Image. 
 
@@ -47,4 +47,14 @@ So to use the Text as Features, 2 stages of processing is needed.
 - [x] 1st Model will train on the Receipt text with direct Classification to classify text with softmax Classification of Receipt Categories.
 - [x] 2nd Model is same model with last before layer as predictor which will Calculate a Embedding of specified Flatten Neurons ( The Predicted flatten Values will have Feature Information Text key words).
             
+            
+            
+            
+            
+**3) Receipt Classifier **
+
+Receipt Classifier is the main model in Classifying the Image either as Receipt or not.
+
+The Receipt Classifier is the Neural Network of having two 1 Dimensional convolution layers( to keep rememeber the Receipt Image pattern Information) and followed by 1 LSTM layer(to keep remember the Sequence of Receipt key words). The input is given by the concatenated features of Pattern information Predicted Embedding values and Text Features extraction model Embedding output.
+
      
