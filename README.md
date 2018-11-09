@@ -12,6 +12,9 @@ Algorithm of using 3 models for Classifying the Image either Receipt or not a Re
 
               3)      Receipt Classifier
 
+
+![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/Model.PNG)
+
 ```
 The Algorithm is considering both Image patterns similar to Receipt image paterns and Text information in the Image of considered Image.
 
