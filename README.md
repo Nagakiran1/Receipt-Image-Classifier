@@ -16,3 +16,7 @@ The Algorithm is considering both Image patterns similar to Receipt image patern
 Image Patterns Extraction (Pattern Recognition Model).
   Convolution Network of 8 layers with 2*4 layers residual feedbacks used in remembering the Patterns of the Receipt Images.
   
+  
+  ![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/ConvNet1.png)
+  
+  
