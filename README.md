@@ -61,6 +61,7 @@ So to use the Text as Features, 2 stages of processing is needed.
 
 Receipt Classifier is the main model in Classifying the Image either as Receipt or not.
 
-The Receipt Classifier is the Neural Network of having two 1 Dimensional convolution layers( to keep rememeber the Receipt Image pattern Information) and followed by 1 LSTM layer(to keep remember the Sequence of Receipt key words). The input is given by the concatenated features of Pattern information Predicted Embedding values and Text Features extraction model Embedding output.
+- The Receipt Classifier is the Neural Network of having two 1 Dimensional convolution layers( to keep rememeber the Receipt Image pattern Information) and followed by 1 LSTM layer(to keep remember the Sequence of Receipt key words). 
+- The input is given by the concatenated features of Pattern information Predicted Embedding values and Text Features extraction model Embedding output.
 
      
