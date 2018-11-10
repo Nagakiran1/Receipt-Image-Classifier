@@ -47,6 +47,8 @@ So to use the Text as Features, 2 stages of processing is needed.
 
   ![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/OpticalCharacterRecognition.jpg)
   
+  
+  ![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/Models/BindingBox3.jpg)
 
   - LSTM Sequential models is also built to work as two models, 
 
