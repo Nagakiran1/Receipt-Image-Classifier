@@ -28,7 +28,7 @@ The Algorithm is considering both Image patterns similar to Receipt image patern
 **1) Image Patterns Extraction (Pattern Recognition Model):**
 
 
-  Convolution Network of 8 layers with 2\*4 layers residual feedbacks used in remembering the Patterns of the Receipt Images.
+  Convolution Network of 8 layers with 2\*4 layers residual feedbacks used in remembering the Patterns  :scissors: of the Receipt Images.
   
   
   ![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/ConvNet1.png)
@@ -68,4 +68,5 @@ Receipt Classifier is the main model in Classifying the Image either as Receipt 
 - The Receipt Classifier is the Neural Network of having two 1 Dimensional convolution layers( to keep rememeber the Receipt Image pattern Information) and followed by 1 LSTM layer(to keep remember the Sequence of Receipt key words). 
 - Input to the Network is given by the concatenated features of Pattern information Predicted Embedding values and Text Features extraction model Embedding output.
 
+/play rimshot
      
