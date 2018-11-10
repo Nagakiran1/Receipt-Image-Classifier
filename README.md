@@ -25,7 +25,7 @@ The Algorithm is considering both Image patterns similar to Receipt image patern
 ![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/Model.PNG)
 
 
-**1) Image Patterns Extraction (Pattern Recognition Model):**
+**1) Image Patterns Extraction  :scissors:(Pattern Recognition Model):**
 
 
   Convolution Network of 8 layers with 2\*4 layers residual feedbacks used in remembering the Patterns  :scissors: of the Receipt Images.
