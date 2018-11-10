@@ -57,9 +57,7 @@ So to use the Text as Features, 2 stages of processing is needed.
             
             
             
-            
-            
-**3) Receipt Classifier **
+**3) Receipt Classifier :**
 
 Receipt Classifier is the main model in Classifying the Image either as Receipt or not.
 
